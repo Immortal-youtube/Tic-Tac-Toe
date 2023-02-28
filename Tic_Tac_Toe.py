@@ -2,6 +2,7 @@ from tkinter import *
 
 
 window = Tk()
+window.iconbitmap("icon.ico")
 window.title("Tic-Tac-Toe")
 def button_check(row,column):
     if buttons[row][column]['text'] != "":
